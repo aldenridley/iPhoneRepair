@@ -12,7 +12,6 @@ header {
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
-  position: fixed;
   align-items: center;
 }
 
@@ -32,3 +31,20 @@ header nav span {
 }
 
 /* mission section  */
+
+.ourmission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin-left: 110px;
+}
+
+.omtext {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  justify-content: center;
+}
