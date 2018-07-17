@@ -9,11 +9,20 @@ body {
 /* header section */
 
 header {
-  display: inline-flex;
-  height: 69px;
   width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 70px;
+  background-color: black;
   border-bottom: 1px solid seashell;
   align-items: center;
+  top: 0px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .logo img {
@@ -41,6 +50,7 @@ header nav span {
   height: 700px;
   width: 1200px;
   margin-left: 110px;
+  padding-top: 70px;
 }
 
 .omtext {
