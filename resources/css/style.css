@@ -3,6 +3,7 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
+  text-align: center;
 }
 
 /* header section */
@@ -47,4 +48,46 @@ header nav span {
   width: 1200px;
   text-align: center;
   justify-content: center;
+  opacity: .8;
+}
+
+/* tea of the month section */
+
+.tomlead {
+  text-align: center;
+}
+
+.tomlead h2 {
+  margin-top: 85px;
+}
+
+.tom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 1000px;
+  height: 700px;
+  flex-wrap: wrap;
+  margin-left: 200px;
+}
+
+.tom .item {
+
+}
+.item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.item {
+  display: block;
 }
