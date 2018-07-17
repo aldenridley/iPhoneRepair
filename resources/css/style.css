@@ -79,6 +79,7 @@ header nav span {
   width: 300px;
   display: block;
   margin: 10px;
+  border-radius: 1%;
 }
 
 .item span {
@@ -90,4 +91,34 @@ header nav span {
 
 .item {
   display: block;
+}
+
+/* loactions section */
+
+.locmain{
+  display: inline-block;
+  height: 550px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title {
+  display: flex;
+  display: block;
+}
+.inloc {
+  display: inline-flex;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: .8;
+  border-radius: 3%;
+  margin: 15px 20px;
+  text-align: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
